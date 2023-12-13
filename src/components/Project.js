@@ -9,7 +9,6 @@ const [text,setText] = useState("")
 
     return(
            <div>
-             <p></p>
             <input onChange={changeText}></input>
             <p>{text}</p>
            </div>
