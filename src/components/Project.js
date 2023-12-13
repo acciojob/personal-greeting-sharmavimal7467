@@ -9,7 +9,7 @@ const [text,setText] = useState("")
 
     return(
            <div>
-             <p>Enter your name:</p>
+             <p></p>
             <input onChange={changeText}></input>
             <p>{text}</p>
            </div>
